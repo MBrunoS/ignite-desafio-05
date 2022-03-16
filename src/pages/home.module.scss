@@ -1,1 +1,31 @@
-// TODO
+.postItem {
+  margin-top: 2rem;
+
+  a {
+    display: block;
+
+    strong {
+      font-size: 1.75rem;
+      color: var(--heading);
+      transition: color 0.2s;
+    }
+
+    p {
+      margin: 1rem 0;
+    }
+
+    &:hover {
+      strong {
+        color: var(--highlight);
+      }
+    }
+  }
+}
+
+.loadButton {
+  display: inline-block;
+  margin-top: 4rem;
+  color: var(--highlight);
+  background: transparent;
+  border: 0;
+}

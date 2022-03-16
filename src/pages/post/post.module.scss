@@ -1,1 +1,22 @@
-// TODO
+.hero {
+  max-width: 100vw;
+  max-height: 25rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.post {
+  margin-top: 5rem;
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.postSection {
+  h2 {
+    margin: 2rem 0;
+  }
+}

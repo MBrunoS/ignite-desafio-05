@@ -1,0 +1,15 @@
+.container {
+  span {
+    color: var(--info);
+    display: inline-block;
+    align-items: center;
+
+    & + span {
+      margin-left: 1.5rem;
+    }
+
+    & :first-child {
+      margin-right: 0.5rem;
+    }
+  }
+}
